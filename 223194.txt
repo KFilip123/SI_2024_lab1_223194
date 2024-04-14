@@ -1,0 +1,45 @@
+1. Инсталирав Git и направив профил на GitHub.
+2. Преименував од main во master.
+3. Направив репозиториум со име SI_2024_lab1_223194.
+4. Го креирав со командата mkdir SI_2024_lab1_223194 на мојот компјутер.
+5. Го поврзав со git remote add origin https://github.com/KFilip123/SI_2024_lab1_223194
+6. Додадов со nano README.md, git add README.md, git commit -m "Initial commit"
+7. git add SILab1_1 SILab1_2 SILab1Main
+   git commit -m "Add starter code"
+8. git push -u origin master
+9. git branch bug1
+   git branch bug2
+10. git checkout bug1
+11. git add SILab1_1.java
+    git commit -m "Fix wrong condition in filterOddLengthStrings"
+12. git checkout bug2
+13. git add SILab1_2.java
+    git commit -m "Fix wrong codition in makeBigStringFrom"
+14. git checkout bug1
+15. Додаден е повикот.
+    git add SILab1Main.java
+    git commit -m "Call method filterOddLengthStrings in main class"
+16. git checkout bug2
+17. Додаден е повикот.
+    git add SILab1Main.java
+    git commit -m "Call method makeBigStringFrom in main class"
+18. git push origin --all
+19. git checkout master
+20. git merge bug1
+21. git push origin --all
+22. git checkout bug2
+23. git rebase master
+    Се јави конфликт. 
+    git rebase --skip
+24. git checkout master
+25. git merge bug2
+26. git push origin --all
+    Јавува конфликт.
+27. git push origin bug2 --force
+28. git log > logs.txt
+    git add .
+    git commit -m "Final commit"
+29. git push origin --all
+
+
+
